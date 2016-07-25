@@ -19,9 +19,9 @@
 
 <div class="panel">
     <div class="input-group">
-        <input type="text" class="form-control"/>
+        <input type="text" class="form-control" ng-model="actionText"/>
         <span class="input-group-btn">
-            <button class="btn btn-default">Add</button>
+            <button class="btn btn-default" ng-click="addNewItem(actionText)">Add</button>
         </span>
     </div>
 
